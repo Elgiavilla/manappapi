@@ -1,0 +1,61 @@
+hash: 59541403df204ed8c4718468cb9e9cc70173305ce5dc289130439472642234bb
+updated: 2019-05-23T16:57:31.406867+07:00
+imports:
+- name: github.com/biezhi/gorm-paginator
+  version: 7a5c8ed20334610e9560e561a21ee4f3fc66bef4
+  subpackages:
+  - pagination
+- name: github.com/dgrijalva/jwt-go
+  version: 06ea1031745cb8b3dab3f6a236daf2b0aa468b7e
+- name: github.com/jinzhu/gorm
+  version: b7156195f7f3415f97c20abbd6aff894b847fee8
+  subpackages:
+  - dialects/postgres
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/labstack/echo
+  version: 5d2c33ad5dbb78540a56dd08d09d91f991bc3156
+- name: github.com/labstack/gommon
+  version: 82ef680aef5189b68682876cf70d09daa4ac0f51
+  subpackages:
+  - color
+  - log
+- name: github.com/lib/pq
+  version: 2ff3cb3adc01768e0a552b3a02575a6df38a9bea
+  subpackages:
+  - hstore
+  - oid
+  - scram
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: 1311e847b0cb909da63b5fecfb5370aa66236465
+- name: github.com/sirupsen/logrus
+  version: 839c75faf7f98a33d445d181f3018b5c3409a45e
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: 8b5e4e491ab636663841c42ea3c5a9adebabaf36
+- name: golang.org/x/crypto
+  version: 22d7a77e9e5f409e934ed268692e56707cd169e5
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: f3200d17e092c607f615320ecaad13d87ad9a2b3
+  subpackages:
+  - idna
+- name: golang.org/x/sys
+  version: 8097e1b27ff5e40620836729a9584e91b094b062
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 342b2e1fbaa52c93f31447ad2c6abc048c63e475
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+testImports: []
